@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Technology-Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/Technology-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Technology-BoldItalic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/Technology-BoldItalic.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Technology-Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/Technology-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Technology';
+    font-style: normal;
+    font-weight: normal;
+    src: url('./font/Technology.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'Technology',-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8rem;
+    background-color: black;
+    color: white;
+    word-break: keep-all;
+    cursor: default;
+    height: 100vh;
+}
+
+.time {
+    display: inline-block;
+    position: relative;
+    top: 51.25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 12rem;
+    letter-spacing: 1rem;
+}
+
+.num {
+    opacity: 0;
+}
+
+/* @keyframes background {
+    0% { background-color: #000c24; }
+    12.5% { background-color: #152a4f; }
+    25% { background-color: #446f9d; }
+    37.5% { background-color: #79b0d9; }
+    50% { background-color: #83b5e2; }
+    62.5% { background-color: #2295ed; }
+    75% { background-color: #0563b5; }
+    87.5% { background-color: #074090; }
+    100% { background-color: #000411; }
+} */
